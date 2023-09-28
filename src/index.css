@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  background: rgb(36, 38, 39);
+  /* background-image: url(./img/graph.gif); */
+  background-size: 100% 100%;
+  /* background: black; */
+  overflow: hidden;
+  user-select: none;
+}

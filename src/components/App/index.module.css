@@ -1,0 +1,54 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.globe {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.ilyahacker {
+  width: 600px;
+  top: 20px;
+  left: 800px;
+  background: rgb(174, 178, 187);
+  position: absolute;
+  border: 1px solid rgb(174, 178, 187);
+  border-top: 20px solid rgb(174, 178, 187);
+  border-style: outset;
+}
+
+.footerMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 975px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: unset;
+    padding: 2px;
+  }
+  .globe {
+    display: none;
+  }
+
+  .ilyahacker {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .footerMobile {
+    display: block;
+  }
+
+  .footerDesktop {
+    display: none;
+  }
+}

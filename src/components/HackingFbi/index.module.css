@@ -1,0 +1,30 @@
+.hackingFbi {
+  color: rgb(241, 0, 0);
+  position: absolute;
+  top: 700px;
+  left: 700px;
+  font-size: 30px;
+  background: black;
+  border: 1px solid rgb(174, 178, 187);
+  padding: 10px;
+  border-top: 20px solid rgb(174, 178, 187);
+  border-style: outset;
+  user-select: none;
+}
+
+.accessGranted {
+  text-align: center;
+  color:rgb(174, 178, 187);
+  font-size: 50px;
+}
+
+.hackingFbiText {
+  text-align: center;
+  user-select: none;
+}
+
+@media only screen and (max-width: 975px) {
+  .hackingFbi {
+    display: none;
+  }
+}

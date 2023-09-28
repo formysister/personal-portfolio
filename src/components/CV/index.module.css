@@ -1,0 +1,73 @@
+.cvWrapper {
+  background: black;
+  position: absolute;
+  border: 1px solid rgb(174, 178, 187);
+  border-style: outset;
+  width: 193px;
+  top: 650px;
+  right: 400px;
+}
+
+.borderTop {
+  height: 20px;
+  background: rgb(174, 178, 187);
+  cursor: pointer;
+}
+
+.cvs {
+  display: flex;
+}
+
+.cv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(174, 178, 187);
+  font-size: 16px;
+  padding: 5px 0px;
+  transition: all 0.3s ease;
+}
+
+.cv:first-child {
+  border-right: 1px solid rgb(174, 178, 187);
+}
+
+.cv:hover {
+  background: rgb(174, 178, 187);
+  color: black;
+}
+
+@media only screen and (max-width: 975px) {
+  .cvWrapper {
+    margin-top: 10px;
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    border: none;
+  }
+
+  .borderTop {
+    display: none;
+  }
+  .cvs {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .cv {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+    border: 1px solid rgb(174, 178, 187);
+    border-radius: 20px;
+  }
+
+  .cv:first-child {
+    margin-right: 10px;
+  }
+
+  .cvImg {
+    display: none;
+  }
+}
