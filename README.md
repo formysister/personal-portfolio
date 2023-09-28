@@ -1,9 +1,9 @@
-# hacker-portfolio
+# personal-portfolio
 
-This is my portfolio site. Use laptop for better experience 🙂  
-Demo: https://hacker-portfolioo.netlify.app/
+This is simple sci-fi hacking style portfolio site. Use laptop for better experience 🙂  
+Demo: https://formysister.github.io/
 
-![first](https://i.imgur.com/ZLfU5X3.gif)
+![first](https://github.com/formysister/personal-portfolio/blob/main/public/Screenshot_1.png?raw=true)
 
 
 ### Available commands:
